@@ -1,0 +1,34 @@
+# Node.js modules
+node_modules/
+dist/
+build/
+
+# dotenv files
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# npm/yarn/pnpm-related
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
+
+# MongoDB specific (if any local DB files are created)
+data/db/
